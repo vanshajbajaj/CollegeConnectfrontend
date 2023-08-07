@@ -1,0 +1,151 @@
+#editprofilemain {
+
+    width: 100%;
+    height: 82%;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#editpic {
+
+    width: 100%;
+    height: 20%;
+    /* border:1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.edit-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.47);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* font-weight: bold; */
+    background-color: rgba(0, 0, 0, 0.105);
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#editcontent {
+
+    width: 100%;
+    height: 80%;
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+#profilepic {
+
+    height: 85%;
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px rgba(128, 128, 128, 0.164);
+
+}
+
+.contentdiv {
+
+    width: 90%;
+    /* border:1px solid yellow; */
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contenthead {
+
+    width: 46%;
+    height: 100%;
+    /* border:1px solid brown; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.contentmid {
+
+    width: 2%;
+    height: 60%;
+    /* border:1px solid brown; */
+    border-left: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contentval {
+
+    width: 50%;
+    height: 100%;
+    /* border:1px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.inpfield {
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #b4b4b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#submitcontent {
+
+    width: 90%;
+    /* border:1px solid yellow; */
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#editbt {
+
+    width: 45%;
+    height: 100%;
+    /* border:1px solid red; */
+    border-radius: 5px;
+    background: rgb(224, 94, 249);
+    background: linear-gradient(166deg, rgba(224, 94, 249, 1) 12%, rgba(236, 72, 174, 1) 84%);
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+
+}

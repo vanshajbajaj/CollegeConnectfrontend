@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.signup-component {
+    @apply flex flex-col items-start justify-center min-h-[calc(100vh_-_60px)] w-full p-8 box-border;
+}

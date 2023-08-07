@@ -1,0 +1,99 @@
+#header-container {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+#headermain {
+    width: 100%;
+    background-color: #1b1b1b7c;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 0px 2px 1px rgb(96, 96, 96); */
+    position: sticky;
+    top: 0;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 0.4rem;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+    margin:1vw;
+}
+
+/* .title-word-1 {
+    --color-1: #dc7278;
+    --color-2: #77C3BC;
+    --color-3: #388697;
+}
+
+.title-word-2 {
+    --color-1: #EBBAB9;
+    --color-2: #A76671;
+    --color-3: #d5a4a5;
+} */
+.title-word-1 {
+    --color-1: #dd00b1;
+    --color-2: #ba00a7;
+    --color-3: #8e008e;
+}
+
+.title-word-2 {
+    --color-3: #dd00b1;
+    --color-2: #920084;
+    --color-1: #8e008e;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    text-shadow: 0px 0px 1px rgba(168, 168, 168, 0.418);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    /* font-size: 1.5rem; */
+    /* color: white; */
+    letter-spacing: 1px;
+}
